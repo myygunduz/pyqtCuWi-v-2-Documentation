@@ -1,0 +1,76 @@
+.dark{
+    /*nav bar*/
+    --nav-color:#fff;
+    --nav-h-color:#c7c5c5;
+    --nav-bg-color:#f5f5f520;
+
+    /*dark or light (dol)*/
+    --dol-bg-color:#16161650;
+    --dol-color:#fff;
+    --dol-toggle-bg-color:#fff;
+
+    /*home page*/
+    --bg-color: linear-gradient(90deg,#2b1948, #313565);
+    --color:#f5f5f5;
+    --btn-border-color:#865dc9;
+    --btn-color:#f5f5f5;
+    --btn-h-bg-color:#855cc6;
+    --btn-h-color:#161616;
+
+    /*scrool color*/
+    --scroll-track:#313565;
+    --scroll-thumb:#23113f;
+
+    /*doc pages*/
+    --doc-color:#f5f5f5;
+    --doc-hr-color:#f5f5f520;
+
+    /*code highlight*/
+    --code-bg-color:#16161650;
+    --code-color:#f5f5f5;
+    --code-h-color:#c7c5c5;
+
+    /*table*/
+    --table-bg-color:#16161650;
+    --table-row-hover-bg-color:#16161620;
+    --table-color:#f5f5f5;
+}
+.light{
+    /*nav bar*/
+    --nav-color:#161616;
+    --nav-h-color:#282828;
+    --nav-bg-color:#28282820;
+
+    /*dark or light (dol)*/
+    --dol-bg-color:#f5f5f550;
+    --dol-color:#161616;
+    --dol-toggle-bg-color:#161616;
+
+    /*home page*/
+    --bg-color: linear-gradient(90deg,#8392DE, #a2ade7);
+    --color:#161616;
+    --btn-border-color:#a5b2f3;
+    --btn-color:#161616;
+    --btn-h-bg-color:#a4afe2;
+    --btn-h-color:#fff;
+
+    /*scrool color*/
+    --scroll-track:#8392DE;
+    --scroll-thumb:#a2ade7;
+
+    /*doc pages*/
+    --doc-color:#161616;
+    --doc-hr-color:#16161620;
+
+    /*code highlight*/
+    --code-bg-color:#f5f5f550;
+    --code-color:#161616;
+    --code-h-color:#8F8F8F;
+
+    /*table*/
+    --table-bg-color:#f5f5f550;
+    --table-row-hover-bg-color:#f5f5f520;
+    --table-color:#161616;
+
+
+}

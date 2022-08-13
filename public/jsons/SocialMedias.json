@@ -1,0 +1,27 @@
+[
+    {
+        "link":"https://github.com/myygunduz",
+        "icon":"<i class='fa-brands fa-github'></i>",
+        "color":"#171515"
+    },
+    {
+        "link":"https://www.linkedin.com/in/myygunduz/",
+        "icon":"<i class='fa-brands fa-linkedin'></i>",
+        "color":"#0e76a8"
+    },
+    {
+        "link":"https://www.instagram.com/myygunduz/",
+        "icon":"<i class='fa-brands fa-instagram'></i>",
+        "color":"#e1306c"
+    },
+    {
+        "link":"https://twitter.com/myygunduz",
+        "icon":"<i class='fa-brands fa-twitter'></i>",
+        "color":"#1da1f2"
+    },
+    {
+        "link":"https://www.youtube.com/channel/UCQGiz8XLyoBDmLRNtZt8xBQ",
+        "icon":"<i class='fa-brands fa-youtube'></i>",
+        "color":"#ff0000"
+    }
+]

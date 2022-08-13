@@ -1,0 +1,118 @@
+{
+    "medias":[
+        {
+            "name": "QMediaImage",
+            "id": "image",
+            "src":"/assets/pyqtcuwi.png",
+            "alt":"QMediaImage"
+        },
+        {
+            "name": "QMediaGif",
+            "id": "gif",
+            "src":"/assets/gif.gif",
+            "alt":"QMediaGif"
+        }
+    ],
+    "params":{
+        "header":["Name","Type","Default Value","Description"],
+        "rows":[
+            ["source","str | QUrl | QMovie | QImage | QPixmap","None","Sets source of media"],
+            ["keepAspectRatio","bool","True","Protect aspect ratio"],
+            ["smoothScale","bool","True","Transform the image smoothly"]
+        ],
+        "footer":[
+            {"mode":"info","title":"Info","content":"Supported data types separated by '|'"}
+        ]
+    },
+    "methods":{
+        "header":["Name","Parameters Type","Returned Value Type","Description"],
+        "rows":[
+            ["setSource","str | QUrl | QMovie | QImage | QPixmap","None","Sets source of media"],
+            ["source","None","str", "Returns source of media"]            
+        ],
+        "footer":[
+            {"mode":"info","title":"Info","content":"Supported data types separated by '|'"}
+        ]
+    },
+    "signals":{
+        "header":["Name","Returned Value Type","Description"],
+        "rows":[
+            ["clicked","QEvent","Signal emitted when user click on media."],
+            ["finishedClicked","QEvent","Signal emitted when user click on media and release mouse button."],
+            ["hoverEnter","QEvent","Signal emitted when user move mouse over media."],
+            ["hoverLeave","QEvent","Signal emitted when user move mouse out of media."],
+            ["changed","tuple","Signal emitted when changed media"]
+        ],
+        "footer":[
+        ]
+    },
+    "QMediaImage":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["source","str | QUrl | QImage | QPixmap","None","Sets source of media"],
+                ["keepAspectRatio","bool","True","Protect aspect ratio"],
+                ["smoothScale","bool","True","Transform the image smoothly"]
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"}
+            ]
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setSource","str | QUrl | QImage | QPixmap","None","Sets source of media"],
+                ["source","None","str", "Returns source of media"]            
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["clicked","QEvent","Signal emitted when user click on media."],
+                ["finishedClicked","QEvent","Signal emitted when user click on media and release mouse button."],
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over media."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of media."],
+                ["changed","tuple","Signal emitted when changed media"]
+            ],
+            "footer":[]
+        }
+    },
+    "QMediaGif":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["source","str | QUrl | QMovie","None","Sets source of media"],
+                ["keepAspectRatio","bool","True","Protect aspect ratio"],
+                ["smoothScale","bool","True","Transform the image smoothly"]
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"}
+            ]
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setSource","str | QUrl | QMovie","None","Sets source of media"],
+                ["source","None","str", "Returns source of media"]            
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["clicked","QEvent","Signal emitted when user click on media."],
+                ["finishedClicked","QEvent","Signal emitted when user click on media and release mouse button."],
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over media."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of media."],
+                ["changed","tuple","Signal emitted when changed media"]
+            ],
+            "footer":[
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+widget = CuWi.QInput(CuWi.QType.QInputType.BUTTON, "Button")

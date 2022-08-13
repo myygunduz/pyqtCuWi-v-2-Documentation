@@ -1,0 +1,315 @@
+{
+    "widgets":[
+        {
+            "name": "QInputButton",
+            "id": "button"
+        },
+        {
+            "name": "QInputCheckbox",
+            "id": "checkbox"
+        },
+        {
+            "name": "QInputFile",
+            "id": "file"
+        },
+        {
+            "name": "QInputRadio",
+            "id": "radio"
+        },
+        {
+            "name":"QInputSlider",
+            "id":"slider"
+        }
+    ],
+    "params":{
+        "header":["Name","Type","Default Value","Description"],
+        "rows":[
+            ["QType","QType.QInputType","Is havn't default value","Type of input"],
+            ["text","str","None","Text of input"],
+            ["icon","str","None","Icon of input"],
+            ["minVal","int","None","Min value of slider input"],
+            ["maxVal","int","None","Max value of slider input"]
+        ],
+        "footer":[
+            {"mode":"warning","title":"Warning","content":"Please send just 'minVal' and 'maxVal' as parameter when you use slider input."}
+        ]
+    },
+    "methods":{
+        "header":["Name","Parameters Type","Returned Value Type","Description"],
+        "rows":[
+            ["setText","str","None","Set text of widget"],
+            ["setSize","QSize | tuple | int","None","Set widget size"],
+            ["setStyle","dict | str","None","Set style of widget"],
+            ["setIcon","QIcon | str","None","Set icon of widget"],
+            ["setIconSize","int","None","Set icon size"],
+            ["setCursor","QCursor","None","Set cursor of widget"],
+            ["setDisabled","bool","None","Set disable the widget"],
+            ["setEnabled","bool","None","Set enable the widget"],
+            ["setSelect","bool","None","Set selected the widget"],
+            ["showFileDetails","bool","None","Set show file details of widget"],
+            ["addGroup","str","None","Adds the widget to a group"],
+            ["text","None","str","Return the widget text"],
+            ["size","None","QSize","Return the widget size"],
+            ["icon","None","QIcon","Return the widget icon"],
+            ["iconSize","None","QSize","Return the widget icon size"],
+            ["isDisabled","None","bool","Return the widget is disabled"],
+            ["isEnabled","None","bool","Return the widget is enabled"],
+            ["widgetType","None","QType.QInputType","Return the widget type"],
+            ["fileDetails","None","dict","Return the dropped file details"]
+            
+        ],
+        "footer":[
+            {"mode":"warning","title":"Warning","content":"Please look at input's documentation to know more about these methods."},
+            {"mode":"info","title":"Info","content":"All methods is not supported for all inputs."},
+            {"mode":"info","title":"Info","content":"Supported data types separated by '|'"},
+            {"mode":"info","title":"Info","content":"Please look at style documentation to know more about styles."}
+        ]
+    },
+    "signals":{
+        "header":["Name","Returned Value Type","Description"],
+        "rows":[
+            ["clicked","QEvent","Signal emitted when user click on input."],
+            ["finishedClicked","QEvent","Signal emitted when user click on input and release mouse button."],
+            ["hoverEnter","QEvent","Signal emitted when user move mouse over input."],
+            ["hoverLeave","QEvent","Signal emitted when user move mouse out of input."],
+            ["fileDroped","dict","Signal emitted when user drop file on input."],
+            ["sliderValueChanged","int","Signal emitted when user change value of slider input."]
+        ],
+        "footer":[
+            {"mode":"warning","title":"Warning","content":"Please look at input's documentation to know more about these signals."},
+            {"mode":"info","title":"Info","content":"All signals is not supported for all inputs."}
+        ]
+    },
+    "QInputButton":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["QType","QType.QInputType","Is havn't default value","Type of input"],
+                ["text","str","None","Text of input"],
+                ["icon","str","None","Icon of input"]
+            ],
+            "footer":[]
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setText","str","None","Set text of widget"],
+                ["setSize","QSize | tuple | int","None","Set widget size"],
+                ["setStyle","dict | str","None","Set style of widget"],
+                ["setIcon","QIcon | str","None","Set icon of widget"],
+                ["setIconSize","int","None","Set icon size"],
+                ["setCursor","QCursor","None","Set cursor of widget"],
+                ["setDisabled","bool","None","Set disable the widget"],
+                ["setEnabled","bool","None","Set enable the widget"],
+                ["text","None","str","Return the widget text"],
+                ["size","None","QSize","Return the widget size"],
+                ["icon","None","QIcon","Return the widget icon"],
+                ["iconSize","None","QSize","Return the widget icon size"],
+                ["isDisabled","None","bool","Return the widget is disabled"],
+                ["isEnabled","None","bool","Return the widget is enabled"],
+                ["widgetType","None","QType.QInputType","Return the widget type"]
+                
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"},
+                {"mode":"info","title":"Info","content":"Please look at style documentation to know more about styles."}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["clicked","QEvent","Signal emitted when user click on input."],
+                ["finishedClicked","QEvent","Signal emitted when user click on input and release mouse button."],
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over input."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of input."]
+            ],
+            "footer":[]
+        }
+    },
+    "QInutCheckbox":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["QType","QType.QInputType","Is havn't default value","Type of input"],
+                ["text","str","None","Text of input"],
+                ["icon","str","None","Icon of input"]
+            ],
+            "footer":[]
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setText","str","None","Set text of widget"],
+                ["setSize","QSize | tuple | int","None","Set widget size"],
+                ["setStyle","dict | str","None","Set style of widget"],
+                ["setIcon","QIcon | str","None","Set icon of widget"],
+                ["setIconSize","int","None","Set icon size"],
+                ["setCursor","QCursor","None","Set cursor of widget"],
+                ["setDisabled","bool","None","Set disable the widget"],
+                ["setEnabled","bool","None","Set enable the widget"],
+                ["setSelect","bool","None","Set selected the widget"],
+                ["addGroup","str","None","Adds the widget to a group"],
+                ["text","None","str","Return the widget text"],
+                ["size","None","QSize","Return the widget size"],
+                ["icon","None","QIcon","Return the widget icon"],
+                ["iconSize","None","QSize","Return the widget icon size"],
+                ["isDisabled","None","bool","Return the widget is disabled"],
+                ["isEnabled","None","bool","Return the widget is enabled"],
+                ["widgetType","None","QType.QInputType","Return the widget type"]
+                
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"},
+                {"mode":"info","title":"Info","content":"Please look at style documentation to know more about styles."}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["clicked","QEvent","Signal emitted when user click on input."],
+                ["finishedClicked","QEvent","Signal emitted when user click on input and release mouse button."],
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over input."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of input."]
+            ],
+            "footer":[]
+        }
+    },
+    "QInputFile":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["QType","QType.QInputType","Is havn't default value","Type of input"],
+                ["text","str","Drop file here","Text of input"]
+            ],
+            "footer":[]
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setText","str","None","Set text of widget"],
+                ["setSize","QSize | tuple | int","None","Set widget size"],
+                ["setStyle","dict | str","None","Set style of widget"],
+                ["setIcon","QIcon | str","None","Set icon of widget"],
+                ["setIconSize","int","None","Set icon size"],
+                ["setCursor","QCursor","None","Set cursor of widget"],
+                ["setDisabled","bool","None","Set disable the widget"],
+                ["setEnabled","bool","None","Set enable the widget"],
+                ["showFileDetails","bool","None","Set show file details of widget"],
+                ["text","None","str","Return the widget text"],
+                ["size","None","QSize","Return the widget size"],
+                ["icon","None","QIcon","Return the widget icon"],
+                ["iconSize","None","QSize","Return the widget icon size"],
+                ["isDisabled","None","bool","Return the widget is disabled"],
+                ["isEnabled","None","bool","Return the widget is enabled"],
+                ["widgetType","None","QType.QInputType","Return the widget type"],
+                ["fileDetails","None","dict","Return the dropped file details"]
+                
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"},
+                {"mode":"info","title":"Info","content":"Please look at style documentation to know more about styles."}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over input."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of input."],
+                ["fileDroped","dict","Signal emitted when user drop file on input."]
+            ],
+            "footer":[]
+        }
+    },
+    "QInputRadio":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["QType","QType.QInputType","Is havn't default value","Type of input"],
+                ["text","str","None","Text of input"],
+                ["icon","str","None","Icon of input"]
+            ],
+            "footer":[]
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setText","str","None","Set text of widget"],
+                ["setSize","QSize | tuple | int","None","Set widget size"],
+                ["setStyle","dict | str","None","Set style of widget"],
+                ["setIcon","QIcon | str","None","Set icon of widget"],
+                ["setIconSize","int","None","Set icon size"],
+                ["setCursor","QCursor","None","Set cursor of widget"],
+                ["setDisabled","bool","None","Set disable the widget"],
+                ["setEnabled","bool","None","Set enable the widget"],
+                ["setSelect","bool","None","Set selected the widget"],
+                ["addGroup","str","None","Adds the widget to a group"],
+                ["text","None","str","Return the widget text"],
+                ["size","None","QSize","Return the widget size"],
+                ["icon","None","QIcon","Return the widget icon"],
+                ["iconSize","None","QSize","Return the widget icon size"],
+                ["isDisabled","None","bool","Return the widget is disabled"],
+                ["isEnabled","None","bool","Return the widget is enabled"],
+                ["widgetType","None","QType.QInputType","Return the widget type"]
+                
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"},
+                {"mode":"info","title":"Info","content":"Please look at style documentation to know more about styles."}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["clicked","QEvent","Signal emitted when user click on input."],
+                ["finishedClicked","QEvent","Signal emitted when user click on input and release mouse button."],
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over input."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of input."]
+            ],
+            "footer":[]
+        }
+    },
+    "QInputSlider":{
+        "params":{
+            "header":["Name","Type","Default Value","Description"],
+            "rows":[
+                ["QType","QType.QInputType","Is havn't default value","Type of input"],
+                ["minVal","int","None","Min value of slider input"],
+                ["maxVal","int","None","Max value of slider input"] 
+            ],
+            "footer":[
+                {"mode":"warning","title":"Warning","content":"Please just send 'minVal' and 'maxVal' as parameters."}
+            ]
+            
+        },
+        "methods":{
+            "header":["Name","Parameters Type","Returned Value Type","Description"],
+            "rows":[
+                ["setSize","QSize | tuple | int","None","Set widget size"],
+                ["setStyle","dict | str","None","Set style of widget"],
+                ["setCursor","QCursor","None","Set cursor of widget"],
+                ["setDisabled","bool","None","Set disable the widget"],
+                ["setEnabled","bool","None","Set enable the widget"],
+                ["size","None","QSize","Return the widget size"],
+                ["isDisabled","None","bool","Return the widget is disabled"],
+                ["isEnabled","None","bool","Return the widget is enabled"],
+                ["widgetType","None","QType.QInputType","Return the widget type"]
+                
+            ],
+            "footer":[
+                {"mode":"info","title":"Info","content":"Supported data types separated by '|'"},
+                {"mode":"info","title":"Info","content":"Please look at style documentation to know more about styles."}
+            ]
+        },
+        "signals":{
+            "header":["Name","Returned Value Type","Description"],
+            "rows":[
+                ["clicked","QEvent","Signal emitted when user click on input."],
+                ["finishedClicked","QEvent","Signal emitted when user click on input and release mouse button."],
+                ["hoverEnter","QEvent","Signal emitted when user move mouse over input."],
+                ["hoverLeave","QEvent","Signal emitted when user move mouse out of input."],
+                ["sliderValueChanged","int","Signal emitted when user change value of slider input."]
+            ],
+            "footer":[]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+layout.addWidget(widget)

@@ -1,0 +1,1 @@
+media = CuWi.QMedia('./image.png')

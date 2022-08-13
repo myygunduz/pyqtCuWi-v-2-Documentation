@@ -1,0 +1,1 @@
+widget = CuWi.QInput(CuWi.QType.QInputType.SLIDER, minVal = 0, maxVal = 100)
